@@ -6,18 +6,18 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-    <Weather defaultCity="Nigeria"/>
+    <Weather defaultCity="Paris"/>
     
 
       <footer>
         This project was coded by {""}
-        <a href="" target='_blank' rel="noopener noreferrer">Prezi Jessica
+        <a href="https://my-detailed-profile.onrender.com" target='_blank' rel="noopener noreferrer">Prezi Jessica
           </a>
-        {""}and is {""}
-        <a href="" target='_blank' rel="noopener noreferrer">open-souurced on Github
+        {""} and is {""}
+        <a href="https://github.com/jessiebobra/weather-react-app" target='_blank' rel="noopener noreferrer">open-souurced on Github
         </a>
-        {""}and{""}
-         <a href="" target='_blank' rel="noopener noreferrer">hosted on render
+        {""} and {""}
+         <a href="https://weather-react-app-sbr5.onrender.com" target='_blank' rel="noopener noreferrer">hosted on render
         </a>
         </footer>
         </div>
