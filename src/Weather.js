@@ -47,6 +47,7 @@ export default function Weather(props) {
             <div className="col-9">
               <input
                 type="search"
+                id="search"
                 placeholder="Enter a city.."
                 className="form-control"
                 autoFocus="on"
@@ -63,7 +64,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData}/>
-        <WeatherForecast coordinates={weatherData.coordinates}/>
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
